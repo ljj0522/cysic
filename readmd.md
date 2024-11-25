@@ -1,1 +1,1 @@
-wget -O cysic.sh https://raw.githubusercontent.com/a3165458/Cysic/main/cysic.sh && chmod +x cysic.sh && ./cysic.sh
+wget -O cysic.sh https://raw.githubusercontent.com/ljj0522/cysic/refs/heads/main/cysic.sh && chmod +x cysic.sh && ./cysic.sh
