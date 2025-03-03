@@ -122,9 +122,13 @@ function uninstall_node() {
 }
 
 function run_node_2.0() {
+read -p "请输入您的白名单 0x 地址: " address
 install_nodejs_and_npm
 install_pm2
 
+wget https://github.com/cysic-labs/phase2_libs/releases/download/v1.0.0/setup_linux.sh
+chmod +x setup_linux.sh
+./setup_linux.sh "$address"
 cd ~/cysic-verifier
 pm2 start start.sh
 }
